@@ -8,12 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @StateObject var viewModel = HomeViewModel()
+    
+    
     var body: some View {
-        NavigationView {
-            List(MockData.appetizers) { appetizer in
-                AppetizerListCell(appetizer: appetizer)
+        
+        ZStack {
+            NavigationView {
+                List(viewModel.appetizers) { appetizer in
+                    AppetizerListCell(appetizer: appetizer)
+                }
+                .navigationTitle("Appetizer 🍎")
             }
-            .navigationTitle("Appetizer 🍎")
+            .onAppear {
+                viewModel.getAppetizers()
+            }
+            if viewModel.isLoading {
+                LoadingView()
+            }
+        }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
 }
