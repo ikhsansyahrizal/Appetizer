@@ -26,6 +26,7 @@
 		46435C3A2BB9213E00FDA0DA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46435C392BB9213E00FDA0DA /* LoadingView.swift */; };
 		46435C3C2BB9226000FDA0DA /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46435C3B2BB9226000FDA0DA /* Color+Ext.swift */; };
 		46435C3E2BB92EF000FDA0DA /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46435C3D2BB92EF000FDA0DA /* RemoteImage.swift */; };
+		46728CB72BC292B8009692CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46728CB62BC292B8009692CD /* User.swift */; };
 		46B11CCC2BB69BE2002085A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B11CCB2BB69BE2002085A0 /* NetworkManager.swift */; };
 		46D2D75C2BBA4A750022C4FA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2D75B2BBA4A750022C4FA /* DetailView.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		46435C392BB9213E00FDA0DA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		46435C3B2BB9226000FDA0DA /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		46435C3D2BB92EF000FDA0DA /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		46728CB62BC292B8009692CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		46B11CCB2BB69BE2002085A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		46D2D75B2BBA4A750022C4FA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				4605989A2BB542B400AB968E /* Appetizer.swift */,
+				46728CB62BC292B8009692CD /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				462E98312BB8012E00C899A9 /* HomeViewModel.swift in Sources */,
 				46435C3C2BB9226000FDA0DA /* Color+Ext.swift in Sources */,
 				460598952BB5252D00AB968E /* AccountView.swift in Sources */,
+				46728CB72BC292B8009692CD /* User.swift in Sources */,
 				4632741F2BC0EB7100942909 /* APButton.swift in Sources */,
 				46435C3A2BB9213E00FDA0DA /* LoadingView.swift in Sources */,
 				460598972BB5253900AB968E /* OrderView.swift in Sources */,
