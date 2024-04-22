@@ -6,6 +6,8 @@ In this iOS app designed for appetizer ordering and nutritional information, the
 
 ## Preview
 
+#### Light Mode
+
 <img width="210" alt="1" src="https://github.com/ikhsansyahrizal/Appetizer/assets/72852911/e059d249-919e-407b-97b0-465ff8844d13">
 
 <img width="210" alt="2" src="https://github.com/ikhsansyahrizal/Appetizer/assets/72852911/3da10f40-65ba-4103-8a5e-89ca470c83c6">
@@ -15,8 +17,9 @@ In this iOS app designed for appetizer ordering and nutritional information, the
 <img width="210" alt="4" src="https://github.com/ikhsansyahrizal/Appetizer/assets/72852911/82b93076-82a7-4900-9a1a-582f2df76e6c">
 
 
+-----
 
-
+#### Dark Mode
 
 <img width="210" alt="11" src="https://github.com/ikhsansyahrizal/Appetizer/assets/72852911/aa36f9fc-960d-4425-8f68-f2ddde52a1fb">
 
